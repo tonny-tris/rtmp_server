@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <serverip></serverip>                   <!-- Specify the IP address of the RTMP server, if not specified, the rtmp server will listen to all network interfaces -->
+    <serverport>1935</serverport>           <!-- Specify the RTMP server service port, the default is 1935 -->
+    <loop_nums>-1</loop_nums>               <!-- When streaming media files, specify the number of loop playback,-1 means infinite loop -->
+    <log_enable>1</log_enable>              <!-- Whether enable the log function, 0-disable, 1-enable -->
+    <log_level>1</log_level>                <!-- The log level: TRACE 0, DEBUG 1, INFO 2, WARN 3, ERROR 4, FATAL 5 -->
+    
+    <application>                           <!-- Application, it can configure multiple nodes-->
+        <name>myapp</name>                  <!-- Application Name -->
+        
+        <output>                            <!-- Specify the audio and video output parameters, it can configure multiple nodes -->
+            <url>screenlive</url>           <!-- Match URL address, it can be filename, or file extension name, or special suffix -->
+            <video>                         <!-- Specify the video output parameters -->
+            	<codec>H264</codec>         <!-- Specify the output video codec, H264,H265 -->
+                <width></width>             <!-- Specify the output video width, If 0 use the original video width (screenlive stream use the screen width, videodevice stream use the default width) -->
+                <height></height>           <!-- Specify the output video height, If 0 use the original video height (screenlive stream use the screen height, videodevice stream use the default height) -->
+                <framerate></framerate>     <!-- Specify the output video framerate, If 0 use the original video framerate (screenlive use the default value 15, videodevice stream use the default value 25) -->
+                <bitrate></bitrate>         <!-- Specify the output video bit rate, if 0, automatically calculate the output bit rate, the unit is kb/s -->
+            </video>
+            <audio>                         <!-- Specify the audio output parameters -->
+                <codec>AAC</codec>          <!-- Specify the output audio codec, AAC,G711A,G711U -->
+                <samplerate>44100</samplerate> <!-- Specify the audio sample rate -->
+                <channels>2</channels>      <!-- Specify the audio channel number, 1 is mono, 2 is stereo, If 0 use the original audio channel number (audio device stream use the default value 2) -->
+                <bitrate></bitrate>         <!-- Specify the output audio bit rate, if 0, automatically calculate the output bit rate, the unit is kb/s -->
+            </audio>
+        </output>
+        
+        <output>                            <!-- The default output configuration -->
+            <url></url>
+            <video>
+            	<codec>H264</codec>         <!-- Specify the output video codec, H264,H265 -->
+                <width></width>
+                <height></height>
+                <framerate></framerate>
+                <bitrate></bitrate>
+            </video>
+            <audio>
+            	<codec>AAC</codec>          <!-- Specify the output audio codec, AAC,G711A,G711U -->
+                <samplerate>44100</samplerate>
+                <channels>2</channels>
+                <bitrate></bitrate>
+            </audio>
+        </output>
+        
+        <proxy>                             <!-- Specify the rtmp proxy parameters, it can configure multiple nodes -->
+            <suffix>proxy</suffix>          <!-- Specify the rtmp stream suffix, you can play the proxy stream from: rtmp://[serverip]:[serverport]/[application-name]/[suffix] -->
+            <url></url>                     <!-- The original rtsp/rtmp/http mjpeg stream address -->
+            <user></user>                   <!-- Specify the original rtsp/rtmp/http mjpeg stream login user name -->
+            <pass></pass>                   <!-- Specify the original rtsp/rtmp/http mjpeg stream login password -->
+            <transfer>TCP</transfer>        <!-- Specify the rtsp client transfer protocol, TCP,UDP,MULTICAST -->
+            <output>                        <!-- Specify the stream output parameter -->
+                <video>                     <!-- Specify the video output parameters -->
+                    <codec></codec>         <!-- Specify the output video codec, H264,H265 -->
+                    <width></width>         <!-- Specify the output video width, If 0 use the original video width -->  
+                    <height></height>       <!-- Specify the output video height, If 0 use the original video height --> 
+                    <framerate></framerate> <!-- Specify the output video framerate, If 0 use the original video framerate --> 
+                    <bitrate></bitrate>     <!-- Specify the output video bit rate, if 0, automatically calculate the output bit rate, the unit is kb/s -->
+                </video>
+                <audio>                     <!-- Specify the audio output parameters -->
+                    <codec>AAC</codec>      <!-- Specify the output audio codec, AAC,G711A,G711U -->
+                    <samplerate>44100</samplerate> <!-- Specify the audio sample rate -->
+                    <channels>2</channels>  <!-- Specify the audio channel number, 1 is mono, 2 is stereo, If 0 use the original audio channel number -->
+                    <bitrate></bitrate>     <!-- Specify the output audio bit rate, if 0, automatically calculate the output bit rate, the unit is kb/s -->
+                </audio>
+            </output>
+        </proxy>
+        
+    </application>
+</config>
+

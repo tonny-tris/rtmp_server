@@ -1,0 +1,889 @@
+[2022-12-06 08:22:26] : [INFO] net_buf_init, num = 32
+[2022-12-06 08:22:26] : [INFO] hdrv_buf_init, num = 256
+[2022-12-06 08:22:26] : [INFO] rtmp_task, enter ...
+[2022-12-06 08:27:06] : [INFO] new user over tcp from[172.18.2.1,41708]
+[2022-12-06 08:27:06] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:27:06] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:27:06] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:27:06] : [DEBUG] SHandShake: Player Version: 0.0.0.0
+[2022-12-06 08:27:06] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:27:06] : [DEBUG] rtmp_serve_packet, received: invoke 284 bytes
+[2022-12-06 08:27:06] : [DEBUG] (object begin)
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:27:06] : [DEBUG] (object begin)
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218/myapp/window=199210252020121011>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	512.00>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:       capabilities, NUMBER:	239.00>
+[2022-12-06 08:27:06] : [DEBUG] Property: NULL
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:           flashVer, STRING:	FMLE/3.0 (compatible; FMSc/1.0)>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	128.00>
+[2022-12-06 08:27:06] : [DEBUG] Property: NULL
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:     objectEncoding, NUMBER:	0.00>
+[2022-12-06 08:27:06] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:27:06] : [DEBUG] (object end)
+[2022-12-06 08:27:06] : [DEBUG] (object end)
+[2022-12-06 08:27:06] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:27:06] : [DEBUG] Invoking _result
+[2022-12-06 08:27:07] : [DEBUG] HandleChangeChunkSize, received: chunk size change to 8192
+[2022-12-06 08:27:07] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:27:07] : [DEBUG] (object begin)
+[2022-12-06 08:27:07] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:27:07] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:27:07] : [DEBUG] Property: NULL
+[2022-12-06 08:27:07] : [DEBUG] (object end)
+[2022-12-06 08:27:07] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:27:07] : [DEBUG] Invoking _result
+[2022-12-06 08:27:07] : [DEBUG] rtmp_serve_packet, received: invoke 61 bytes
+[2022-12-06 08:27:07] : [DEBUG] (object begin)
+[2022-12-06 08:27:07] : [DEBUG] Property: <Name:           no-name., STRING:	publish>
+[2022-12-06 08:27:07] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:27:07] : [DEBUG] Property: NULL
+[2022-12-06 08:27:07] : [DEBUG] Property: <Name:           no-name., STRING:	myapp/window=199210252020121011>
+[2022-12-06 08:27:07] : [DEBUG] Property: <Name:           no-name., STRING:	live>
+[2022-12-06 08:27:07] : [DEBUG] (object end)
+[2022-12-06 08:27:07] : [DEBUG] rtmp_serve_invoke, client invoking <publish>
+[2022-12-06 08:27:07] : [DEBUG] Invoking onStatus
+[2022-12-06 08:27:09] : [DEBUG] (object begin)
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:           no-name., STRING:	@setDataFrame>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:           no-name., STRING:	onMetaData>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:27:09] : [DEBUG] (object begin)
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:              width, NUMBER:	3264.00>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:             height, NUMBER:	2448.00>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:          framerate, NUMBER:	30.00>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:       videocodecid, NUMBER:	7.00>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:      videodatarate, NUMBER:	512.00>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:       audiocodecid, NUMBER:	10.00>
+[2022-12-06 08:27:09] : [DEBUG] Property: <Name:      audiodatarate, NUMBER:	64.00>
+[2022-12-06 08:27:09] : [DEBUG] (object end)
+[2022-12-06 08:27:09] : [DEBUG] (object end)
+[2022-12-06 08:27:13] : [INFO] new user over tcp from[172.18.2.218,63170]
+[2022-12-06 08:27:13] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Server digest offset: 53
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Initial server digest: 
+[2022-12-06 08:27:13] : [DEBUG] c2 45 4a 93 29 cb de ef 93 2f e6 2d 5b 93 dd 2c
+[2022-12-06 08:27:13] : [DEBUG] 71 54 b3 3e 72 8d 82 4a 35 d7 31 0e dc 4d 45 cd
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Player Version: 9.0.124.2
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Calculated digest key from secure key and server digest: 
+[2022-12-06 08:27:13] : [DEBUG] 47 e2 97 96 11 2d eb 38 6c 6c 45 00 f5 16 db e1
+[2022-12-06 08:27:13] : [DEBUG] f6 a1 fc 4f ed 44 10 54 5e 8f 19 e4 18 bc 04 3a
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Server signature calculated:
+[2022-12-06 08:27:13] : [DEBUG] f1 8e 8f 47 01 13 ef 69 99 45 6f 09 84 f7 2d ec
+[2022-12-06 08:27:13] : [DEBUG] 4d e8 03 f7 72 2f d1 da a4 22 1d 23 58 c5 19 10
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Client sent signature:
+[2022-12-06 08:27:13] : [DEBUG] 73 36 da fe fa f1 96 fa 02 f1 57 f5 cf f0 6a f9
+[2022-12-06 08:27:13] : [DEBUG] 7b 55 1a 28 f0 0e 62 0f a2 21 f4 41 91 a4 b6 98
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Digest key: 
+[2022-12-06 08:27:13] : [DEBUG] b4 df 0f 64 10 ce b7 3e 86 33 2b 4e ca 15 a4 08
+[2022-12-06 08:27:13] : [DEBUG] 13 ce 6a 42 4d 8e 88 f1 98 b9 0d c1 48 56 c4 b0
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Signature calculated:
+[2022-12-06 08:27:13] : [DEBUG] 73 36 da fe fa f1 96 fa 02 f1 57 f5 cf f0 6a f9
+[2022-12-06 08:27:13] : [DEBUG] 7b 55 1a 28 f0 0e 62 0f a2 21 f4 41 91 a4 b6 98
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Genuine Adobe Flash Player
+[2022-12-06 08:27:13] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_packet, received: invoke 201 bytes
+[2022-12-06 08:27:13] : [DEBUG] (object begin)
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:27:13] : [DEBUG] (object begin)
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           flashVer, STRING:	LNX 9,0,124,2>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218:1935/myapp>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:       capabilities, NUMBER:	15.00>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	4071.00>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	252.00>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:27:13] : [DEBUG] (object end)
+[2022-12-06 08:27:13] : [DEBUG] (object end)
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:27:13] : [DEBUG] Invoking _result
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:27:13] : [DEBUG] (object begin)
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:27:13] : [DEBUG] Property: NULL
+[2022-12-06 08:27:13] : [DEBUG] (object end)
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:27:13] : [DEBUG] Invoking _result
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_packet, received: invoke 56 bytes
+[2022-12-06 08:27:13] : [DEBUG] (object begin)
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., STRING:	getStreamLength>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:27:13] : [DEBUG] Property: NULL
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:27:13] : [DEBUG] (object end)
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_invoke, client invoking <getStreamLength>
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_packet, received: invoke 54 bytes
+[2022-12-06 08:27:13] : [DEBUG] (object begin)
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., STRING:	play>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., NUMBER:	4.00>
+[2022-12-06 08:27:13] : [DEBUG] Property: NULL
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:27:13] : [DEBUG] Property: <Name:           no-name., NUMBER:	-2000.00>
+[2022-12-06 08:27:13] : [DEBUG] (object end)
+[2022-12-06 08:27:13] : [DEBUG] rtmp_serve_invoke, client invoking <play>
+[2022-12-06 08:27:13] : [DEBUG] sending ctrl. type: 0x0000
+[2022-12-06 08:27:13] : [DEBUG] Invoking onStatus
+[2022-12-06 08:27:22] : [DEBUG] RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10054 (Unknown error)
+[2022-12-06 08:27:22] : [ERROR] WriteN, RTMP send error 10054 (42 bytes)
+[2022-12-06 08:27:22] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet body. len: 34
+[2022-12-06 08:27:22] : [INFO] closing connection...
+[2022-12-06 08:27:22] : [DEBUG] rtmp_media_video_thread, exit
+[2022-12-06 08:27:22] : [DEBUG] rtmp_media_audio_thread, exit
+[2022-12-06 08:27:22] : [DEBUG] rtmp_server, done!
+[2022-12-06 08:28:43] : [DEBUG] rtmp_serve_packet, received: invoke 34 bytes
+[2022-12-06 08:28:43] : [DEBUG] (object begin)
+[2022-12-06 08:28:43] : [DEBUG] Property: <Name:           no-name., STRING:	deleteStream>
+[2022-12-06 08:28:43] : [DEBUG] Property: <Name:           no-name., NUMBER:	0.00>
+[2022-12-06 08:28:43] : [DEBUG] Property: NULL
+[2022-12-06 08:28:43] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:28:43] : [DEBUG] (object end)
+[2022-12-06 08:28:43] : [DEBUG] rtmp_serve_invoke, client invoking <deleteStream>
+[2022-12-06 08:28:43] : [DEBUG] Invoking deleteStream
+[2022-12-06 08:28:43] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet header
+[2022-12-06 08:28:43] : [INFO] closing connection...
+[2022-12-06 08:28:43] : [DEBUG] rtmp_server, done!
+[2022-12-06 08:31:28] : [INFO] new user over tcp from[172.18.2.1,41776]
+[2022-12-06 08:31:28] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:31:29] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:31:29] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:31:29] : [DEBUG] SHandShake: Player Version: 0.0.0.0
+[2022-12-06 08:31:29] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:31:29] : [DEBUG] rtmp_serve_packet, received: invoke 284 bytes
+[2022-12-06 08:31:29] : [DEBUG] (object begin)
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:31:29] : [DEBUG] (object begin)
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218/myapp/window=199210252020121011>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	512.00>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:       capabilities, NUMBER:	239.00>
+[2022-12-06 08:31:29] : [DEBUG] Property: NULL
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:           flashVer, STRING:	FMLE/3.0 (compatible; FMSc/1.0)>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	128.00>
+[2022-12-06 08:31:29] : [DEBUG] Property: NULL
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:     objectEncoding, NUMBER:	0.00>
+[2022-12-06 08:31:29] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:31:29] : [DEBUG] (object end)
+[2022-12-06 08:31:29] : [DEBUG] (object end)
+[2022-12-06 08:31:29] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:31:29] : [DEBUG] Invoking _result
+[2022-12-06 08:31:30] : [DEBUG] HandleChangeChunkSize, received: chunk size change to 8192
+[2022-12-06 08:31:30] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:31:30] : [DEBUG] (object begin)
+[2022-12-06 08:31:30] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:31:30] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:31:30] : [DEBUG] Property: NULL
+[2022-12-06 08:31:30] : [DEBUG] (object end)
+[2022-12-06 08:31:30] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:31:30] : [DEBUG] Invoking _result
+[2022-12-06 08:31:30] : [DEBUG] rtmp_serve_packet, received: invoke 61 bytes
+[2022-12-06 08:31:30] : [DEBUG] (object begin)
+[2022-12-06 08:31:30] : [DEBUG] Property: <Name:           no-name., STRING:	publish>
+[2022-12-06 08:31:30] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:31:30] : [DEBUG] Property: NULL
+[2022-12-06 08:31:30] : [DEBUG] Property: <Name:           no-name., STRING:	myapp/window=199210252020121011>
+[2022-12-06 08:31:30] : [DEBUG] Property: <Name:           no-name., STRING:	live>
+[2022-12-06 08:31:30] : [DEBUG] (object end)
+[2022-12-06 08:31:30] : [DEBUG] rtmp_serve_invoke, client invoking <publish>
+[2022-12-06 08:31:30] : [DEBUG] Invoking onStatus
+[2022-12-06 08:31:32] : [DEBUG] (object begin)
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:           no-name., STRING:	@setDataFrame>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:           no-name., STRING:	onMetaData>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:31:32] : [DEBUG] (object begin)
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:              width, NUMBER:	3264.00>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:             height, NUMBER:	2448.00>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:          framerate, NUMBER:	30.00>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:       videocodecid, NUMBER:	7.00>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:      videodatarate, NUMBER:	512.00>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:       audiocodecid, NUMBER:	10.00>
+[2022-12-06 08:31:32] : [DEBUG] Property: <Name:      audiodatarate, NUMBER:	64.00>
+[2022-12-06 08:31:32] : [DEBUG] (object end)
+[2022-12-06 08:31:32] : [DEBUG] (object end)
+[2022-12-06 08:31:37] : [INFO] new user over tcp from[172.18.2.218,55666]
+[2022-12-06 08:31:37] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Server digest offset: 53
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Initial server digest: 
+[2022-12-06 08:31:37] : [DEBUG] 29 22 66 1c 16 86 7a 65 88 7f 5d 53 05 03 68 2a
+[2022-12-06 08:31:37] : [DEBUG] 73 18 4a 80 64 11 0d cd 83 8e 12 b9 89 e4 a4 45
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Player Version: 9.0.124.2
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Calculated digest key from secure key and server digest: 
+[2022-12-06 08:31:37] : [DEBUG] 47 e2 97 96 11 2d eb 38 6c 6c 45 00 f5 16 db e1
+[2022-12-06 08:31:37] : [DEBUG] f6 a1 fc 4f ed 44 10 54 5e 8f 19 e4 18 bc 04 3a
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Server signature calculated:
+[2022-12-06 08:31:37] : [DEBUG] f1 8e 8f 47 01 13 ef 69 99 45 6f 09 84 f7 2d ec
+[2022-12-06 08:31:37] : [DEBUG] 4d e8 03 f7 72 2f d1 da a4 22 1d 23 58 c5 19 10
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Client sent signature:
+[2022-12-06 08:31:37] : [DEBUG] aa 92 38 74 2b fb 58 92 11 20 6e ad c7 e5 a7 3f
+[2022-12-06 08:31:37] : [DEBUG] 77 23 58 b8 e2 17 d2 d0 7a f5 df 00 d0 27 54 4d
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Digest key: 
+[2022-12-06 08:31:37] : [DEBUG] e2 8f 89 55 5f 2d da df 14 24 c2 d8 ef ff e8 0d
+[2022-12-06 08:31:37] : [DEBUG] af 94 1f 19 86 5b 59 9f 4f 62 60 de 69 fe 83 49
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Signature calculated:
+[2022-12-06 08:31:37] : [DEBUG] aa 92 38 74 2b fb 58 92 11 20 6e ad c7 e5 a7 3f
+[2022-12-06 08:31:37] : [DEBUG] 77 23 58 b8 e2 17 d2 d0 7a f5 df 00 d0 27 54 4d
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Genuine Adobe Flash Player
+[2022-12-06 08:31:37] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_packet, received: invoke 201 bytes
+[2022-12-06 08:31:37] : [DEBUG] (object begin)
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:31:37] : [DEBUG] (object begin)
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           flashVer, STRING:	LNX 9,0,124,2>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218:1935/myapp>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:       capabilities, NUMBER:	15.00>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	4071.00>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	252.00>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:31:37] : [DEBUG] (object end)
+[2022-12-06 08:31:37] : [DEBUG] (object end)
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:31:37] : [DEBUG] Invoking _result
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:31:37] : [DEBUG] (object begin)
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:31:37] : [DEBUG] Property: NULL
+[2022-12-06 08:31:37] : [DEBUG] (object end)
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:31:37] : [DEBUG] Invoking _result
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_packet, received: invoke 56 bytes
+[2022-12-06 08:31:37] : [DEBUG] (object begin)
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., STRING:	getStreamLength>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:31:37] : [DEBUG] Property: NULL
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:31:37] : [DEBUG] (object end)
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_invoke, client invoking <getStreamLength>
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_packet, received: invoke 54 bytes
+[2022-12-06 08:31:37] : [DEBUG] (object begin)
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., STRING:	play>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., NUMBER:	4.00>
+[2022-12-06 08:31:37] : [DEBUG] Property: NULL
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:31:37] : [DEBUG] Property: <Name:           no-name., NUMBER:	-2000.00>
+[2022-12-06 08:31:37] : [DEBUG] (object end)
+[2022-12-06 08:31:37] : [DEBUG] rtmp_serve_invoke, client invoking <play>
+[2022-12-06 08:31:37] : [DEBUG] sending ctrl. type: 0x0000
+[2022-12-06 08:31:37] : [DEBUG] Invoking onStatus
+[2022-12-06 08:31:47] : [DEBUG] RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10054 (Unknown error)
+[2022-12-06 08:31:47] : [ERROR] WriteN, RTMP send error 10054 (42 bytes)
+[2022-12-06 08:31:47] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet body. len: 34
+[2022-12-06 08:31:47] : [INFO] closing connection...
+[2022-12-06 08:31:47] : [DEBUG] rtmp_media_video_thread, exit
+[2022-12-06 08:31:47] : [DEBUG] rtmp_media_audio_thread, exit
+[2022-12-06 08:31:47] : [DEBUG] rtmp_server, done!
+[2022-12-06 08:31:51] : [DEBUG] Invoking deleteStream
+[2022-12-06 08:31:51] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet body. len: 2989
+[2022-12-06 08:31:51] : [INFO] closing connection...
+[2022-12-06 08:31:51] : [DEBUG] rtmp_server, done!
+[2022-12-06 08:45:19] : [INFO] new user over tcp from[172.18.2.1,41948]
+[2022-12-06 08:45:19] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:45:19] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:45:19] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:45:19] : [DEBUG] SHandShake: Player Version: 0.0.0.0
+[2022-12-06 08:45:20] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:45:20] : [DEBUG] rtmp_serve_packet, received: invoke 284 bytes
+[2022-12-06 08:45:20] : [DEBUG] (object begin)
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:45:20] : [DEBUG] (object begin)
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218/myapp/window=199210252020121011>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	512.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:       capabilities, NUMBER:	239.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: NULL
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           flashVer, STRING:	FMLE/3.0 (compatible; FMSc/1.0)>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	128.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: NULL
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:     objectEncoding, NUMBER:	0.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:45:20] : [DEBUG] (object end)
+[2022-12-06 08:45:20] : [DEBUG] (object end)
+[2022-12-06 08:45:20] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:45:20] : [DEBUG] Invoking _result
+[2022-12-06 08:45:20] : [DEBUG] HandleChangeChunkSize, received: chunk size change to 8192
+[2022-12-06 08:45:20] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:45:20] : [DEBUG] (object begin)
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: NULL
+[2022-12-06 08:45:20] : [DEBUG] (object end)
+[2022-12-06 08:45:20] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:45:20] : [DEBUG] Invoking _result
+[2022-12-06 08:45:20] : [DEBUG] rtmp_serve_packet, received: invoke 61 bytes
+[2022-12-06 08:45:20] : [DEBUG] (object begin)
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., STRING:	publish>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:45:20] : [DEBUG] Property: NULL
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., STRING:	myapp/window=199210252020121011>
+[2022-12-06 08:45:20] : [DEBUG] Property: <Name:           no-name., STRING:	live>
+[2022-12-06 08:45:20] : [DEBUG] (object end)
+[2022-12-06 08:45:20] : [DEBUG] rtmp_serve_invoke, client invoking <publish>
+[2022-12-06 08:45:20] : [DEBUG] Invoking onStatus
+[2022-12-06 08:45:21] : [DEBUG] (object begin)
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:           no-name., STRING:	@setDataFrame>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:           no-name., STRING:	onMetaData>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:45:21] : [DEBUG] (object begin)
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:              width, NUMBER:	3264.00>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:             height, NUMBER:	2448.00>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:          framerate, NUMBER:	30.00>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:       videocodecid, NUMBER:	7.00>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:      videodatarate, NUMBER:	512.00>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:       audiocodecid, NUMBER:	10.00>
+[2022-12-06 08:45:21] : [DEBUG] Property: <Name:      audiodatarate, NUMBER:	64.00>
+[2022-12-06 08:45:21] : [DEBUG] (object end)
+[2022-12-06 08:45:21] : [DEBUG] (object end)
+[2022-12-06 08:45:27] : [INFO] new user over tcp from[172.18.2.218,49332]
+[2022-12-06 08:45:27] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Server digest offset: 53
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Initial server digest: 
+[2022-12-06 08:45:27] : [DEBUG] c6 27 7b cc 70 c7 43 aa 2f 43 99 a0 6b 10 a8 86
+[2022-12-06 08:45:27] : [DEBUG] d5 3a a5 76 13 ad 86 4e f2 91 17 48 44 f5 b2 a1
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Player Version: 9.0.124.2
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Calculated digest key from secure key and server digest: 
+[2022-12-06 08:45:27] : [DEBUG] 47 e2 97 96 11 2d eb 38 6c 6c 45 00 f5 16 db e1
+[2022-12-06 08:45:27] : [DEBUG] f6 a1 fc 4f ed 44 10 54 5e 8f 19 e4 18 bc 04 3a
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Server signature calculated:
+[2022-12-06 08:45:27] : [DEBUG] f1 8e 8f 47 01 13 ef 69 99 45 6f 09 84 f7 2d ec
+[2022-12-06 08:45:27] : [DEBUG] 4d e8 03 f7 72 2f d1 da a4 22 1d 23 58 c5 19 10
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Client sent signature:
+[2022-12-06 08:45:27] : [DEBUG] e0 9d ff 0a ac 96 ce ab d7 ca bc f2 1a 3b 8b 7a
+[2022-12-06 08:45:27] : [DEBUG] 96 d9 2d 17 23 29 1a 3e 99 60 d4 ae bf 26 53 bb
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Digest key: 
+[2022-12-06 08:45:27] : [DEBUG] d7 fd f0 53 18 76 f1 f4 55 03 1a 58 b6 c2 1a f3
+[2022-12-06 08:45:27] : [DEBUG] 77 6a a0 af 30 41 6e fc 76 12 74 16 c4 6c 3e 2c
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Signature calculated:
+[2022-12-06 08:45:27] : [DEBUG] e0 9d ff 0a ac 96 ce ab d7 ca bc f2 1a 3b 8b 7a
+[2022-12-06 08:45:27] : [DEBUG] 96 d9 2d 17 23 29 1a 3e 99 60 d4 ae bf 26 53 bb
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Genuine Adobe Flash Player
+[2022-12-06 08:45:27] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_packet, received: invoke 201 bytes
+[2022-12-06 08:45:27] : [DEBUG] (object begin)
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:45:27] : [DEBUG] (object begin)
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           flashVer, STRING:	LNX 9,0,124,2>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218:1935/myapp>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:       capabilities, NUMBER:	15.00>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	4071.00>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	252.00>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:45:27] : [DEBUG] (object end)
+[2022-12-06 08:45:27] : [DEBUG] (object end)
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:45:27] : [DEBUG] Invoking _result
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:45:27] : [DEBUG] (object begin)
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:45:27] : [DEBUG] Property: NULL
+[2022-12-06 08:45:27] : [DEBUG] (object end)
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:45:27] : [DEBUG] Invoking _result
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_packet, received: invoke 56 bytes
+[2022-12-06 08:45:27] : [DEBUG] (object begin)
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., STRING:	getStreamLength>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:45:27] : [DEBUG] Property: NULL
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:45:27] : [DEBUG] (object end)
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_invoke, client invoking <getStreamLength>
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_packet, received: invoke 54 bytes
+[2022-12-06 08:45:27] : [DEBUG] (object begin)
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., STRING:	play>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., NUMBER:	4.00>
+[2022-12-06 08:45:27] : [DEBUG] Property: NULL
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:45:27] : [DEBUG] Property: <Name:           no-name., NUMBER:	-2000.00>
+[2022-12-06 08:45:27] : [DEBUG] (object end)
+[2022-12-06 08:45:27] : [DEBUG] rtmp_serve_invoke, client invoking <play>
+[2022-12-06 08:45:27] : [DEBUG] sending ctrl. type: 0x0000
+[2022-12-06 08:45:27] : [DEBUG] Invoking onStatus
+[2022-12-06 08:45:45] : [DEBUG] rtmp_serve_packet, received: invoke 34 bytes
+[2022-12-06 08:45:45] : [DEBUG] (object begin)
+[2022-12-06 08:45:45] : [DEBUG] Property: <Name:           no-name., STRING:	deleteStream>
+[2022-12-06 08:45:45] : [DEBUG] Property: <Name:           no-name., NUMBER:	5.00>
+[2022-12-06 08:45:45] : [DEBUG] Property: NULL
+[2022-12-06 08:45:45] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:45:45] : [DEBUG] (object end)
+[2022-12-06 08:45:45] : [DEBUG] rtmp_serve_invoke, client invoking <deleteStream>
+[2022-12-06 08:45:45] : [DEBUG] RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10054 (Unknown error)
+[2022-12-06 08:45:45] : [ERROR] WriteN, RTMP send error 10054 (42 bytes)
+[2022-12-06 08:45:45] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet header
+[2022-12-06 08:45:45] : [INFO] closing connection...
+[2022-12-06 08:45:45] : [DEBUG] rtmp_media_video_thread, exit
+[2022-12-06 08:45:45] : [DEBUG] rtmp_media_audio_thread, exit
+[2022-12-06 08:45:45] : [DEBUG] rtmp_server, done!
+[2022-12-06 08:48:37] : [DEBUG] Invoking deleteStream
+[2022-12-06 08:48:37] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet body. len: 188
+[2022-12-06 08:48:37] : [INFO] closing connection...
+[2022-12-06 08:48:37] : [DEBUG] rtmp_server, done!
+[2022-12-06 08:55:21] : [INFO] new user over tcp from[172.18.2.1,42100]
+[2022-12-06 08:55:21] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:55:21] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:55:21] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:55:21] : [DEBUG] SHandShake: Player Version: 0.0.0.0
+[2022-12-06 08:55:22] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:55:22] : [DEBUG] rtmp_serve_packet, received: invoke 284 bytes
+[2022-12-06 08:55:22] : [DEBUG] (object begin)
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:55:22] : [DEBUG] (object begin)
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218/myapp/window=199210252020121011>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	512.00>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:       capabilities, NUMBER:	239.00>
+[2022-12-06 08:55:22] : [DEBUG] Property: NULL
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:           flashVer, STRING:	FMLE/3.0 (compatible; FMSc/1.0)>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	128.00>
+[2022-12-06 08:55:22] : [DEBUG] Property: NULL
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:     objectEncoding, NUMBER:	0.00>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:55:22] : [DEBUG] (object end)
+[2022-12-06 08:55:22] : [DEBUG] (object end)
+[2022-12-06 08:55:22] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:55:22] : [DEBUG] Invoking _result
+[2022-12-06 08:55:22] : [DEBUG] HandleChangeChunkSize, received: chunk size change to 8192
+[2022-12-06 08:55:22] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:55:22] : [DEBUG] (object begin)
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:55:22] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:55:22] : [DEBUG] Property: NULL
+[2022-12-06 08:55:22] : [DEBUG] (object end)
+[2022-12-06 08:55:22] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:55:22] : [DEBUG] Invoking _result
+[2022-12-06 08:55:23] : [DEBUG] rtmp_serve_packet, received: invoke 61 bytes
+[2022-12-06 08:55:23] : [DEBUG] (object begin)
+[2022-12-06 08:55:23] : [DEBUG] Property: <Name:           no-name., STRING:	publish>
+[2022-12-06 08:55:23] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:55:23] : [DEBUG] Property: NULL
+[2022-12-06 08:55:23] : [DEBUG] Property: <Name:           no-name., STRING:	myapp/window=199210252020121011>
+[2022-12-06 08:55:23] : [DEBUG] Property: <Name:           no-name., STRING:	live>
+[2022-12-06 08:55:23] : [DEBUG] (object end)
+[2022-12-06 08:55:23] : [DEBUG] rtmp_serve_invoke, client invoking <publish>
+[2022-12-06 08:55:23] : [DEBUG] Invoking onStatus
+[2022-12-06 08:55:26] : [DEBUG] (object begin)
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:           no-name., STRING:	@setDataFrame>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:           no-name., STRING:	onMetaData>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:55:26] : [DEBUG] (object begin)
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:              width, NUMBER:	3264.00>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:             height, NUMBER:	2448.00>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:          framerate, NUMBER:	30.00>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:       videocodecid, NUMBER:	7.00>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:      videodatarate, NUMBER:	512.00>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:       audiocodecid, NUMBER:	10.00>
+[2022-12-06 08:55:26] : [DEBUG] Property: <Name:      audiodatarate, NUMBER:	64.00>
+[2022-12-06 08:55:26] : [DEBUG] (object end)
+[2022-12-06 08:55:26] : [DEBUG] (object end)
+[2022-12-06 08:55:29] : [INFO] new user over tcp from[172.18.2.218,59436]
+[2022-12-06 08:55:29] : [DEBUG] rtmp_task: processed request
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Server digest offset: 53
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Initial server digest: 
+[2022-12-06 08:55:29] : [DEBUG] 38 07 4e 37 1b 48 8a 6c 0a 6f 10 87 9c 5d 9b 17
+[2022-12-06 08:55:29] : [DEBUG] 15 8b b3 16 46 90 2d 7b f5 a1 e1 10 2d 92 2c 2b
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Player Version: 9.0.124.2
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Calculated digest key from secure key and server digest: 
+[2022-12-06 08:55:29] : [DEBUG] 47 e2 97 96 11 2d eb 38 6c 6c 45 00 f5 16 db e1
+[2022-12-06 08:55:29] : [DEBUG] f6 a1 fc 4f ed 44 10 54 5e 8f 19 e4 18 bc 04 3a
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Server signature calculated:
+[2022-12-06 08:55:29] : [DEBUG] f1 8e 8f 47 01 13 ef 69 99 45 6f 09 84 f7 2d ec
+[2022-12-06 08:55:29] : [DEBUG] 4d e8 03 f7 72 2f d1 da a4 22 1d 23 58 c5 19 10
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Client sent signature:
+[2022-12-06 08:55:29] : [DEBUG] e2 d9 31 e4 21 d5 17 f6 d1 cb 5f c0 30 bd f7 30
+[2022-12-06 08:55:29] : [DEBUG] a5 eb 7c ec 38 c5 5a f6 f4 e6 51 68 71 0d e7 33
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Digest key: 
+[2022-12-06 08:55:29] : [DEBUG] df 8c 91 9a d8 94 5a b2 c4 32 72 79 2c 3e 51 71
+[2022-12-06 08:55:29] : [DEBUG] eb 04 28 85 98 d9 e7 96 70 f4 3f e4 cc 5e cc 82
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Signature calculated:
+[2022-12-06 08:55:29] : [DEBUG] e2 d9 31 e4 21 d5 17 f6 d1 cb 5f c0 30 bd f7 30
+[2022-12-06 08:55:29] : [DEBUG] a5 eb 7c ec 38 c5 5a f6 f4 e6 51 68 71 0d e7 33
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Genuine Adobe Flash Player
+[2022-12-06 08:55:29] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_packet, received: invoke 201 bytes
+[2022-12-06 08:55:29] : [DEBUG] (object begin)
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 08:55:29] : [DEBUG] (object begin)
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           flashVer, STRING:	LNX 9,0,124,2>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218:1935/myapp>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:       capabilities, NUMBER:	15.00>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	4071.00>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	252.00>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 08:55:29] : [DEBUG] (object end)
+[2022-12-06 08:55:29] : [DEBUG] (object end)
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 08:55:29] : [DEBUG] Invoking _result
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 08:55:29] : [DEBUG] (object begin)
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 08:55:29] : [DEBUG] Property: NULL
+[2022-12-06 08:55:29] : [DEBUG] (object end)
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 08:55:29] : [DEBUG] Invoking _result
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_packet, received: invoke 56 bytes
+[2022-12-06 08:55:29] : [DEBUG] (object begin)
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., STRING:	getStreamLength>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 08:55:29] : [DEBUG] Property: NULL
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:55:29] : [DEBUG] (object end)
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_invoke, client invoking <getStreamLength>
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_packet, received: invoke 54 bytes
+[2022-12-06 08:55:29] : [DEBUG] (object begin)
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., STRING:	play>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., NUMBER:	4.00>
+[2022-12-06 08:55:29] : [DEBUG] Property: NULL
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 08:55:29] : [DEBUG] Property: <Name:           no-name., NUMBER:	-2000.00>
+[2022-12-06 08:55:29] : [DEBUG] (object end)
+[2022-12-06 08:55:29] : [DEBUG] rtmp_serve_invoke, client invoking <play>
+[2022-12-06 08:55:29] : [DEBUG] sending ctrl. type: 0x0000
+[2022-12-06 08:55:29] : [DEBUG] Invoking onStatus
+[2022-12-06 08:55:42] : [DEBUG] RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10054 (Unknown error)
+[2022-12-06 08:55:42] : [ERROR] WriteN, RTMP send error 10054 (42 bytes)
+[2022-12-06 08:55:42] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet body. len: 34
+[2022-12-06 08:55:42] : [INFO] closing connection...
+[2022-12-06 08:55:42] : [DEBUG] rtmp_media_video_thread, exit
+[2022-12-06 08:55:42] : [DEBUG] rtmp_media_audio_thread, exit
+[2022-12-06 08:55:42] : [DEBUG] rtmp_server, done!
+[2022-12-06 08:55:56] : [DEBUG] Invoking deleteStream
+[2022-12-06 08:55:56] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet header
+[2022-12-06 08:55:56] : [INFO] closing connection...
+[2022-12-06 08:55:56] : [DEBUG] rtmp_server, done!
+[2022-12-06 09:00:18] : [INFO] new user over tcp from[172.18.2.1,42304]
+[2022-12-06 09:00:18] : [DEBUG] rtmp_task: processed request
+[2022-12-06 09:00:18] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 09:00:18] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 09:00:18] : [DEBUG] SHandShake: Player Version: 0.0.0.0
+[2022-12-06 09:00:18] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 09:00:18] : [DEBUG] rtmp_serve_packet, received: invoke 284 bytes
+[2022-12-06 09:00:18] : [DEBUG] (object begin)
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 09:00:18] : [DEBUG] (object begin)
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218/myapp/window=199210252020121011>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	512.00>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:       capabilities, NUMBER:	239.00>
+[2022-12-06 09:00:18] : [DEBUG] Property: NULL
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:           flashVer, STRING:	FMLE/3.0 (compatible; FMSc/1.0)>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	128.00>
+[2022-12-06 09:00:18] : [DEBUG] Property: NULL
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:     objectEncoding, NUMBER:	0.00>
+[2022-12-06 09:00:18] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 09:00:18] : [DEBUG] (object end)
+[2022-12-06 09:00:18] : [DEBUG] (object end)
+[2022-12-06 09:00:18] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 09:00:18] : [DEBUG] Invoking _result
+[2022-12-06 09:00:19] : [DEBUG] HandleChangeChunkSize, received: chunk size change to 8192
+[2022-12-06 09:00:19] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 09:00:19] : [DEBUG] (object begin)
+[2022-12-06 09:00:19] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 09:00:19] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 09:00:19] : [DEBUG] Property: NULL
+[2022-12-06 09:00:19] : [DEBUG] (object end)
+[2022-12-06 09:00:19] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 09:00:19] : [DEBUG] Invoking _result
+[2022-12-06 09:00:19] : [DEBUG] rtmp_serve_packet, received: invoke 61 bytes
+[2022-12-06 09:00:19] : [DEBUG] (object begin)
+[2022-12-06 09:00:19] : [DEBUG] Property: <Name:           no-name., STRING:	publish>
+[2022-12-06 09:00:19] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 09:00:19] : [DEBUG] Property: NULL
+[2022-12-06 09:00:19] : [DEBUG] Property: <Name:           no-name., STRING:	myapp/window=199210252020121011>
+[2022-12-06 09:00:19] : [DEBUG] Property: <Name:           no-name., STRING:	live>
+[2022-12-06 09:00:19] : [DEBUG] (object end)
+[2022-12-06 09:00:19] : [DEBUG] rtmp_serve_invoke, client invoking <publish>
+[2022-12-06 09:00:19] : [DEBUG] Invoking onStatus
+[2022-12-06 09:00:20] : [DEBUG] (object begin)
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:           no-name., STRING:	@setDataFrame>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:           no-name., STRING:	onMetaData>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 09:00:20] : [DEBUG] (object begin)
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:              width, NUMBER:	3264.00>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:             height, NUMBER:	2448.00>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:          framerate, NUMBER:	30.00>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:       videocodecid, NUMBER:	7.00>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:      videodatarate, NUMBER:	512.00>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:       audiocodecid, NUMBER:	10.00>
+[2022-12-06 09:00:20] : [DEBUG] Property: <Name:      audiodatarate, NUMBER:	64.00>
+[2022-12-06 09:00:20] : [DEBUG] (object end)
+[2022-12-06 09:00:20] : [DEBUG] (object end)
+[2022-12-06 09:00:25] : [INFO] new user over tcp from[172.18.2.218,59365]
+[2022-12-06 09:00:25] : [DEBUG] rtmp_task: processed request
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Server digest offset: 53
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Initial server digest: 
+[2022-12-06 09:00:25] : [DEBUG] 85 88 8c 91 11 da ec c8 7b d2 21 9d 6e 36 a5 a1
+[2022-12-06 09:00:25] : [DEBUG] ed 69 90 b7 d4 23 d9 b2 f2 09 dc 15 20 db 4a f9
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Player Version: 9.0.124.2
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Calculated digest key from secure key and server digest: 
+[2022-12-06 09:00:25] : [DEBUG] 47 e2 97 96 11 2d eb 38 6c 6c 45 00 f5 16 db e1
+[2022-12-06 09:00:25] : [DEBUG] f6 a1 fc 4f ed 44 10 54 5e 8f 19 e4 18 bc 04 3a
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Server signature calculated:
+[2022-12-06 09:00:25] : [DEBUG] f1 8e 8f 47 01 13 ef 69 99 45 6f 09 84 f7 2d ec
+[2022-12-06 09:00:25] : [DEBUG] 4d e8 03 f7 72 2f d1 da a4 22 1d 23 58 c5 19 10
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Client sent signature:
+[2022-12-06 09:00:25] : [DEBUG] 5c 43 33 06 61 4b 2b 3f 99 c2 63 5a 44 24 a4 0d
+[2022-12-06 09:00:25] : [DEBUG] ac e8 19 96 83 10 06 09 b1 69 92 49 fe f2 bb d1
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Digest key: 
+[2022-12-06 09:00:25] : [DEBUG] 17 d3 11 74 4e e1 df d7 ad 55 d9 c9 7b 72 fc 2f
+[2022-12-06 09:00:25] : [DEBUG] a9 ef 8c bc 64 e4 8f de a7 b8 a6 a5 d9 e5 7d 46
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Signature calculated:
+[2022-12-06 09:00:25] : [DEBUG] 5c 43 33 06 61 4b 2b 3f 99 c2 63 5a 44 24 a4 0d
+[2022-12-06 09:00:25] : [DEBUG] ac e8 19 96 83 10 06 09 b1 69 92 49 fe f2 bb d1
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Genuine Adobe Flash Player
+[2022-12-06 09:00:25] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_packet, received: invoke 201 bytes
+[2022-12-06 09:00:25] : [DEBUG] (object begin)
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 09:00:25] : [DEBUG] (object begin)
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           flashVer, STRING:	LNX 9,0,124,2>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218:1935/myapp>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:       capabilities, NUMBER:	15.00>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	4071.00>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	252.00>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 09:00:25] : [DEBUG] (object end)
+[2022-12-06 09:00:25] : [DEBUG] (object end)
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 09:00:25] : [DEBUG] Invoking _result
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 09:00:25] : [DEBUG] (object begin)
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 09:00:25] : [DEBUG] Property: NULL
+[2022-12-06 09:00:25] : [DEBUG] (object end)
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 09:00:25] : [DEBUG] Invoking _result
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_packet, received: invoke 56 bytes
+[2022-12-06 09:00:25] : [DEBUG] (object begin)
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., STRING:	getStreamLength>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 09:00:25] : [DEBUG] Property: NULL
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 09:00:25] : [DEBUG] (object end)
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_invoke, client invoking <getStreamLength>
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_packet, received: invoke 54 bytes
+[2022-12-06 09:00:25] : [DEBUG] (object begin)
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., STRING:	play>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., NUMBER:	4.00>
+[2022-12-06 09:00:25] : [DEBUG] Property: NULL
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 09:00:25] : [DEBUG] Property: <Name:           no-name., NUMBER:	-2000.00>
+[2022-12-06 09:00:25] : [DEBUG] (object end)
+[2022-12-06 09:00:25] : [DEBUG] rtmp_serve_invoke, client invoking <play>
+[2022-12-06 09:00:25] : [DEBUG] sending ctrl. type: 0x0000
+[2022-12-06 09:00:25] : [DEBUG] Invoking onStatus
+[2022-12-06 09:00:32] : [DEBUG] RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10054 (Unknown error)
+[2022-12-06 09:00:32] : [ERROR] WriteN, RTMP send error 10054 (42 bytes)
+[2022-12-06 09:00:32] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet body. len: 34
+[2022-12-06 09:00:32] : [INFO] closing connection...
+[2022-12-06 09:00:32] : [DEBUG] rtmp_media_video_thread, exit
+[2022-12-06 09:00:32] : [DEBUG] rtmp_media_audio_thread, exit
+[2022-12-06 09:00:32] : [DEBUG] rtmp_server, done!
+[2022-12-06 09:00:53] : [DEBUG] rtmp_serve_packet, received: invoke 34 bytes
+[2022-12-06 09:00:53] : [DEBUG] (object begin)
+[2022-12-06 09:00:53] : [DEBUG] Property: <Name:           no-name., STRING:	deleteStream>
+[2022-12-06 09:00:53] : [DEBUG] Property: <Name:           no-name., NUMBER:	0.00>
+[2022-12-06 09:00:53] : [DEBUG] Property: NULL
+[2022-12-06 09:00:53] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 09:00:53] : [DEBUG] (object end)
+[2022-12-06 09:00:53] : [DEBUG] rtmp_serve_invoke, client invoking <deleteStream>
+[2022-12-06 09:00:54] : [DEBUG] Invoking deleteStream
+[2022-12-06 09:00:54] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet header
+[2022-12-06 09:00:54] : [INFO] closing connection...
+[2022-12-06 09:00:54] : [DEBUG] rtmp_server, done!
+[2022-12-06 09:32:08] : [INFO] new user over tcp from[172.18.2.1,42546]
+[2022-12-06 09:32:08] : [DEBUG] rtmp_task: processed request
+[2022-12-06 09:32:08] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 09:32:08] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 09:32:08] : [DEBUG] SHandShake: Player Version: 0.0.0.0
+[2022-12-06 09:32:08] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 09:32:08] : [DEBUG] rtmp_serve_packet, received: invoke 284 bytes
+[2022-12-06 09:32:08] : [DEBUG] (object begin)
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 09:32:08] : [DEBUG] (object begin)
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218/myapp/window=199210252020121011>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	512.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:       capabilities, NUMBER:	239.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: NULL
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           flashVer, STRING:	FMLE/3.0 (compatible; FMSc/1.0)>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	128.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: NULL
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:     objectEncoding, NUMBER:	0.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 09:32:08] : [DEBUG] (object end)
+[2022-12-06 09:32:08] : [DEBUG] (object end)
+[2022-12-06 09:32:08] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 09:32:08] : [DEBUG] Invoking _result
+[2022-12-06 09:32:08] : [DEBUG] HandleChangeChunkSize, received: chunk size change to 8192
+[2022-12-06 09:32:08] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 09:32:08] : [DEBUG] (object begin)
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: NULL
+[2022-12-06 09:32:08] : [DEBUG] (object end)
+[2022-12-06 09:32:08] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 09:32:08] : [DEBUG] Invoking _result
+[2022-12-06 09:32:08] : [DEBUG] rtmp_serve_packet, received: invoke 61 bytes
+[2022-12-06 09:32:08] : [DEBUG] (object begin)
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., STRING:	publish>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 09:32:08] : [DEBUG] Property: NULL
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., STRING:	myapp/window=199210252020121011>
+[2022-12-06 09:32:08] : [DEBUG] Property: <Name:           no-name., STRING:	live>
+[2022-12-06 09:32:08] : [DEBUG] (object end)
+[2022-12-06 09:32:08] : [DEBUG] rtmp_serve_invoke, client invoking <publish>
+[2022-12-06 09:32:08] : [DEBUG] Invoking onStatus
+[2022-12-06 09:32:09] : [DEBUG] (object begin)
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:           no-name., STRING:	@setDataFrame>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:           no-name., STRING:	onMetaData>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 09:32:09] : [DEBUG] (object begin)
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:              width, NUMBER:	3264.00>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:             height, NUMBER:	2448.00>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:          framerate, NUMBER:	30.00>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:       videocodecid, NUMBER:	7.00>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:      videodatarate, NUMBER:	512.00>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:       audiocodecid, NUMBER:	10.00>
+[2022-12-06 09:32:09] : [DEBUG] Property: <Name:      audiodatarate, NUMBER:	64.00>
+[2022-12-06 09:32:09] : [DEBUG] (object end)
+[2022-12-06 09:32:09] : [DEBUG] (object end)
+[2022-12-06 09:32:15] : [INFO] new user over tcp from[172.18.2.218,54016]
+[2022-12-06 09:32:15] : [DEBUG] rtmp_task: processed request
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Type Requested : 03
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Server digest offset: 53
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Initial server digest: 
+[2022-12-06 09:32:15] : [DEBUG] a8 41 02 03 7a 87 b0 61 75 59 71 2c de f0 2a 5d
+[2022-12-06 09:32:15] : [DEBUG] 1f 72 cc fa 00 03 a0 b8 35 ed d4 15 ce a6 d4 fc
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Client Uptime : 0
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Player Version: 9.0.124.2
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Calculated digest key from secure key and server digest: 
+[2022-12-06 09:32:15] : [DEBUG] 47 e2 97 96 11 2d eb 38 6c 6c 45 00 f5 16 db e1
+[2022-12-06 09:32:15] : [DEBUG] f6 a1 fc 4f ed 44 10 54 5e 8f 19 e4 18 bc 04 3a
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Server signature calculated:
+[2022-12-06 09:32:15] : [DEBUG] f1 8e 8f 47 01 13 ef 69 99 45 6f 09 84 f7 2d ec
+[2022-12-06 09:32:15] : [DEBUG] 4d e8 03 f7 72 2f d1 da a4 22 1d 23 58 c5 19 10
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Client sent signature:
+[2022-12-06 09:32:15] : [DEBUG] 27 d9 dc ce 10 eb 5b 82 d8 67 45 ea ca bb b6 6e
+[2022-12-06 09:32:15] : [DEBUG] 25 62 35 be fc 5f ad f8 f1 1d 48 03 8e 06 ea a0
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Digest key: 
+[2022-12-06 09:32:15] : [DEBUG] b4 a6 6f b0 52 c0 8e d4 53 0d 21 10 15 8f 0d 9a
+[2022-12-06 09:32:15] : [DEBUG] ea d6 65 95 93 50 52 62 8b f0 1b 2e 63 60 18 ea
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Signature calculated:
+[2022-12-06 09:32:15] : [DEBUG] 27 d9 dc ce 10 eb 5b 82 d8 67 45 ea ca bb b6 6e
+[2022-12-06 09:32:15] : [DEBUG] 25 62 35 be fc 5f ad f8 f1 1d 48 03 8e 06 ea a0
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Genuine Adobe Flash Player
+[2022-12-06 09:32:15] : [DEBUG] SHandShake: Handshaking finished....
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_packet, received: invoke 201 bytes
+[2022-12-06 09:32:15] : [DEBUG] (object begin)
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., STRING:	connect>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., NUMBER:	1.00>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., OBJECT>
+[2022-12-06 09:32:15] : [DEBUG] (object begin)
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:                app, STRING:	myapp>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           flashVer, STRING:	LNX 9,0,124,2>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:              tcUrl, STRING:	rtmp://172.18.2.218:1935/myapp>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:               fpad, BOOLEAN:	FALSE>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:       capabilities, NUMBER:	15.00>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:        audioCodecs, NUMBER:	4071.00>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:        videoCodecs, NUMBER:	252.00>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:      videoFunction, NUMBER:	1.00>
+[2022-12-06 09:32:15] : [DEBUG] (object end)
+[2022-12-06 09:32:15] : [DEBUG] (object end)
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_invoke, client invoking <connect>
+[2022-12-06 09:32:15] : [DEBUG] Invoking _result
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_packet, received: invoke 25 bytes
+[2022-12-06 09:32:15] : [DEBUG] (object begin)
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., STRING:	createStream>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., NUMBER:	2.00>
+[2022-12-06 09:32:15] : [DEBUG] Property: NULL
+[2022-12-06 09:32:15] : [DEBUG] (object end)
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_invoke, client invoking <createStream>
+[2022-12-06 09:32:15] : [DEBUG] Invoking _result
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_packet, received: invoke 56 bytes
+[2022-12-06 09:32:15] : [DEBUG] (object begin)
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., STRING:	getStreamLength>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., NUMBER:	3.00>
+[2022-12-06 09:32:15] : [DEBUG] Property: NULL
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 09:32:15] : [DEBUG] (object end)
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_invoke, client invoking <getStreamLength>
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_packet, received: invoke 54 bytes
+[2022-12-06 09:32:15] : [DEBUG] (object begin)
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., STRING:	play>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., NUMBER:	4.00>
+[2022-12-06 09:32:15] : [DEBUG] Property: NULL
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., STRING:	window=199210252020121011>
+[2022-12-06 09:32:15] : [DEBUG] Property: <Name:           no-name., NUMBER:	-2000.00>
+[2022-12-06 09:32:15] : [DEBUG] (object end)
+[2022-12-06 09:32:15] : [DEBUG] rtmp_serve_invoke, client invoking <play>
+[2022-12-06 09:32:15] : [DEBUG] sending ctrl. type: 0x0000
+[2022-12-06 09:32:15] : [DEBUG] Invoking onStatus
+[2022-12-06 09:32:38] : [DEBUG] RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10054 (Unknown error)
+[2022-12-06 09:32:38] : [ERROR] WriteN, RTMP send error 10054 (42 bytes)
+[2022-12-06 09:32:38] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet body. len: 34
+[2022-12-06 09:32:38] : [INFO] closing connection...
+[2022-12-06 09:32:38] : [DEBUG] rtmp_media_video_thread, exit
+[2022-12-06 09:32:38] : [DEBUG] rtmp_media_audio_thread, exit
+[2022-12-06 09:32:38] : [DEBUG] rtmp_server, done!
+[2022-12-06 09:32:52] : [DEBUG] Invoking deleteStream
+[2022-12-06 09:32:52] : [ERROR] RTMP_ReadPacket, failed to read RTMP packet header
+[2022-12-06 09:32:52] : [INFO] closing connection...
+[2022-12-06 09:32:52] : [DEBUG] rtmp_server, done!
+[2022-12-06 10:36:39] : [INFO] new user over tcp from[172.11.11.1,57791]
+[2022-12-06 10:36:39] : [DEBUG] rtmp_task: processed request
+[2022-12-06 10:36:44] : [ERROR] rtmp_server, request timeout/select failed, ignoring request
+[2022-12-06 10:36:44] : [INFO] closing connection...
+[2022-12-06 10:36:44] : [DEBUG] rtmp_server, done!
+[2022-12-06 15:14:17] : [DEBUG] sig_handler, Closing
+[2022-12-06 15:14:17] : [INFO] rtmp_stop, enter ...
+[2022-12-06 15:14:17] : [ERROR] rtmp_task: accept failed
+[2022-12-06 15:14:17] : [INFO] rtmp_task, exit!
+[2022-12-06 15:14:17] : [INFO] rtmp_stop, exit
